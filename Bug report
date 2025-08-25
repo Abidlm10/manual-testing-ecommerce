@@ -1,0 +1,74 @@
+# 🐞 Manual Testing Bug Report Project
+
+## 📖 Project Description
+This project contains **manual testing bug reports** for a sample **E-commerce Website**.  
+The goal of this project is to demonstrate **bug reporting skills** for different modules of a web application.  
+
+The website includes the following modules:
+- 🔐 User Authentication (Login/Signup)  
+- 🔎 Product Search  
+- 🛒 Add to Cart  
+- 💳 Checkout & Payment  
+
+---
+
+## 🎯 Scope of Testing
+- ✅ Functional Testing  
+- 🎨 UI/UX Testing  
+- 👥 Usability Testing  
+- 🔄 Regression Testing  
+
+---
+
+## 📂 Project Structure
+
+Manual-Testing-Bug-Report-Project/
+│
+├── README.md
+├── Bug_Reports/
+│ ├── Bug_Report_Template.md
+│ ├── Sample_Bug_Report_Table.xlsx
+│ └── Sample_Bug_Report.md
+└── Screenshots/
+
+
+---
+
+## 🐞 Bug Report Template
+A standard bug report template is included for consistency.  
+
+```markdown
+**Bug ID:** BR-001  
+**Module:** Login Page  
+**Title:** Login button not working with valid credentials  
+**Severity:** High  
+**Priority:** P1  
+**Environment:** Windows 10, Chrome v115  
+**Precondition:** User account already exists  
+
+### Steps to Reproduce
+1. Go to Login Page  
+2. Enter valid email and password  
+3. Click on "Login" button  
+
+### Expected Result
+User should be redirected to the dashboard.  
+
+### Actual Result
+Nothing happens after clicking on the "Login" button.  
+
+| Bug ID | Module     | Title                                 | Severity | Priority | Status |
+| ------ | ---------- | ------------------------------------- | -------- | -------- | ------ |
+| BR-001 | Login Page | Login button not working              | High     | P1       | Open   |
+| BR-002 | Search     | Search results not displayed properly | Medium   | P2       | Open   |
+| BR-003 | Cart       | "Remove from Cart" not removing item  | High     | P1       | Open   |
+| BR-004 | Checkout   | Payment page crashes on submit        | Critical | P1       | Open   |
+| BR-005 | UI/UX      | Logo alignment issue in header        | Low      | P3       | Open   |
+
+Clone this repository
+
+Open Bug_Reports/ to view bug reports
+
+Use the Bug_Report_Template.md for writing new bugs
+
+Add screenshots in Screenshots/ for better documentation
