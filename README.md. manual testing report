@@ -1,0 +1,12 @@
+TC_ID	Test Scenario	Test Steps	Expected Result	Actual Result	Status
+TC001	User Registration	Open App → Sign Up → Enter Name, Email, Password → Submit	Successful account creation message	Working Fine	Pass
+TC002	Login with valid data	Open App → Login → Enter valid Email & Password → Submit	Dashboard should open	Dashboard opens	Pass
+TC003	Login with invalid data	Open App → Login → Enter wrong Password → Submit	Error message should appear	Error message appears	Pass
+TC004	Product Search	In search bar type 'Shoes' and press Enter	List of shoes should appear	Shoes list appears	Pass
+TC005	Add to Cart	Click on any product → Add to Cart	Product should be added to cart	Product added to cart	Pass
+TC006	Remove from Cart	Open Cart → Click Remove button	Product should be removed from cart	Product removed	Pass
+TC007	Checkout without login	Add product → Checkout	'Please login first' message should appear	Message appears	Pass
+TC008	Payment Gateway Failure	Enter wrong card info → Submit	Error 'Payment Failed' should appear	Payment Failed message appears	Pass
+TC009	Payment Successful	Enter valid card info → Submit	'Payment Successful' message with Invoice should appear	Payment successful	Pass
+TC010	App Crash on Android 13	On Android 13 → Login → Checkout → Payment	Smooth checkout should happen	App crashes	Fail
+<img width="385" height="221" alt="image" src="https://github.com/user-attachments/assets/ec0d14e7-cb7a-49e9-bf15-f75d12118ad6" />
